@@ -60,3 +60,22 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+/* CSS Variables */
+:root {
+  /* Primary Colors */
+  --clr-Red: hsl(0, 78%, 62%);
+  --clr-Cyan: hsl(180, 62%, 55%);
+  --clr-Orange: hsl(34, 97%, 64%);
+  --clr-Blue: hsl(212, 86%, 64%);
+
+  /* Neutral Colors */
+  --clr-Very-Dark-Blue: hsl(234, 12%, 34%);
+  --clr-Grayish-Blue: hsl(229, 6%, 66%);
+  --clr-Very-Light-Gray: hsl(0, 0%, 98%);
+
+  /* font weights */
+  --fw-regular: 200;
+  --fw-medium: 400;
+  --fw-bold: 500;
+}
