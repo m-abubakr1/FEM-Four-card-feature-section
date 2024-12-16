@@ -75,7 +75,7 @@ h6 {
   --clr-Very-Light-Gray: hsl(0, 0%, 98%);
 
   /* font weights */
-  --fw-regular: 200;
+  --fw-regular: 300;
   --fw-medium: 400;
   --fw-bold: 600;
 
@@ -163,4 +163,9 @@ header .wrapper {
 .card p {
   margin-block-start: 0.5rem;
   margin-block-end: 2rem;
+  font-weight: var(--fw-regular);
+}
+
+.card img {
+  margin-left: auto;
 }
