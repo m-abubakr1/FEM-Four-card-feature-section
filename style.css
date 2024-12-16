@@ -10,15 +10,6 @@
   margin: 0;
 }
 
-img,
-picture,
-video,
-canvas,
-svg {
-  display: block;
-  max-width: 100%;
-}
-
 p,
 h1,
 h2 {
@@ -78,17 +69,18 @@ body {
   font-weight: var(--fw-regular);
   background-color: var(--clr-Very-Light-Gray);
   color: var(--clr-Grayish-Blue);
-  padding-block-end: 6rem;
+  padding-block-end: 5rem;
   -webkit-font-smoothing: antialiased;
 }
 
 .wrapper {
   max-width: 1100px;
   margin-inline: auto;
+  /* padding-inline: 2rem; */
 }
 
 header .wrapper {
-  max-width: 450px;
+  max-width: 31.25vw;
   text-align: center;
   margin-top: 5rem;
   margin-bottom: 4rem;
@@ -153,5 +145,13 @@ header .wrapper {
 }
 
 .card img {
+  display: block;
+  max-width: 100%;
   margin-left: auto;
+}
+
+@media (max-width: 375px) {
+  .layout-grid {
+    display: grid;
+  }
 }
